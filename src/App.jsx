@@ -4,8 +4,8 @@ import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
 import Services from "./pages/Services.jsx";
 import Contact from "./pages/Contact.jsx";
+import WhatsAppWidget from "./components/WhatsAppWidget.jsx";
 
-// Reset scroll on navigation; jump to #anchor when present (e.g. /services#pricing).
 function ScrollManager() {
   const { pathname, hash } = useLocation();
   useEffect(() => {
@@ -31,6 +31,7 @@ export default function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <WhatsAppWidget />
     </div>
   );
 }
