@@ -84,9 +84,9 @@ export default function Home() {
               maxWidth: 1000,
             }}
           >
-            TRAIN SMALL.
+            YOUR BODY.
             <br />
-            RESULTS BIG.
+            YOUR PROGRESS.
           </h1>
           <div
             style={{
