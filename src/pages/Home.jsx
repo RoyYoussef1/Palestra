@@ -20,12 +20,12 @@ const OFFERINGS = [
   {
     Icon: TargetIcon,
     title: "Programmed, Not Random",
-    body: "Every session is built around your goals — strength, fat loss, or performance.",
+    body: "Every session is built around your goals: strength, fat loss, or performance.",
   },
   {
     Icon: ChartIcon,
     title: "Community, Not Crowd",
-    body: "Train alongside the same 3-4 people — accountability built in, every week.",
+    body: "Train alongside the same 3-4 people: accountability built in, every week.",
   },
 ];
 
@@ -35,8 +35,6 @@ export default function Home() {
   return (
     <>
       <Header />
-
-      {/* HERO */}
       <section
         style={{
           position: "relative",
@@ -109,7 +107,7 @@ export default function Home() {
                 maxWidth: 480,
               }}
             >
-              Semi-private coaching with Richard Saleh — max 4 people per group, full attention, a
+              Semi-private coaching with <b>Richard Saleh</b> <br></br>Max 4 people per group, full attention, a
               program built for you.
             </p>
             <div style={{ display: "flex", gap: 14, flexWrap: "wrap" }}>
@@ -122,7 +120,6 @@ export default function Home() {
 
       <Marquee />
 
-      {/* WHAT WE DO */}
       <section
         style={{
           padding: "clamp(64px,10vw,110px) clamp(20px,5vw,56px)",
@@ -152,7 +149,7 @@ export default function Home() {
                 lineHeight: 1.02,
               }}
             >
-              Whatever your goal, Palestra gets you there — coached, not crowded
+              Whatever your goal, <br></br>Palestra gets you there.
             </h2>
           </div>
           <Link
@@ -310,7 +307,7 @@ export default function Home() {
             Palestra has the coaching, not the crowd
           </h2>
           <p style={{ color: "#B8B5AE", fontSize: 16, lineHeight: 1.7, margin: "0 0 28px", maxWidth: 520 }}>
-            Big-box gyms hand you a card and a corner. Richard Saleh caps every group at four so no
+            Big-box gyms hand you a card and a corner. Richard caps every group at four so no
             rep, no form break, and no goal gets missed.
           </p>
           <div style={{ display: "flex", flexDirection: "column", gap: 0 }}>
@@ -403,10 +400,6 @@ export default function Home() {
           >
             Pick your training frequency
           </h2>
-          <p style={{ color: "#B8B5AE", fontSize: 17, maxWidth: 600, margin: "0 auto" }}>
-            Three simple plans. No per-session math, no surprise fees — just consistent coaching from
-            Richard, every time.
-          </p>
         </RevealOnScroll>
         <div className="snap-carousel snap-carousel--plans">
           {PLANS.map((plan) => (

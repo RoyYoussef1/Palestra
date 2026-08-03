@@ -62,25 +62,25 @@ export const SERVICES = [
     id: "svc-pt",
     title: "Semi-Private Personal Training",
     img: "https://images.pexels.com/photos/32695899/pexels-photo-32695899.jpeg?auto=compress&cs=tinysrgb&w=800",
-    body: "Strength, conditioning, and fat-loss programming in groups capped at 4. Richard designs and coaches every session — form corrections, progression, and accountability included.",
+    body: "Strength, conditioning, and fat-loss programming in groups capped at 4.",
   },
   {
     id: "svc-zumba",
     title: "Zumba",
     img: "https://images.pexels.com/photos/8957646/pexels-photo-8957646.jpeg?auto=compress&cs=tinysrgb&w=800",
-    body: "Dance-based cardio classes for adults — high energy, no experience required. Burn fat and blow off steam to great music.",
+    body: "Dance-based cardio classes for adults.",
   },
   {
     id: "svc-kick",
     title: "Kickboxing",
     img: "https://images.pexels.com/photos/7991640/pexels-photo-7991640.jpeg?auto=compress&cs=tinysrgb&w=800",
-    body: "Pad work, combos, and conditioning drills that build power and stamina while teaching real technique.",
+    body: "Pad work, combos, and conditioning drills.",
   },
   {
     id: "svc-nutrition",
     title: "Nutrition Coaching",
     img: "https://images.pexels.com/photos/4929677/pexels-photo-4929677.jpeg?auto=compress&cs=tinysrgb&w=800",
-    body: "Practical guidance layered onto your training plan — no fad diets, just habits that stick alongside your sessions.",
+    body: "Practical guidance layered onto your training plan.",
   },
 ];
 

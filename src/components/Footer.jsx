@@ -34,7 +34,7 @@ export default function Footer() {
               <img src={logo} alt="Palestra" />
             </div>
             <p>
-              Semi-private fitness studio in Jdeideh — max 4 per group, coached by Richard Saleh.
+              Semi-private fitness studio in Jdeideh. <br></br>Max 4 per group, coached by <b>Richard Saleh</b>
             </p>
             <a href="tel:+96170156375" className="site-footer-phone">
               {PHONE_DISPLAY}
@@ -111,7 +111,7 @@ export default function Footer() {
                 className="site-footer-ig"
                 aria-label="Instagram @palestra.lb"
               >
-                <InstagramIcon size={20} color="currentColor" />
+                <InstagramIcon size={20} color="#FFCE00" />
                 <span>@palestra.lb</span>
               </a>
             </div>

@@ -41,10 +41,9 @@ export default function Contact() {
       <PageHeader
         eyebrow="CONTACT & BOOKING"
         title="Let's get you in the room"
-        intro="Send a message or reach us directly — Richard replies personally to every request."
+        intro="Send a message or reach us directly."
       />
 
-      {/* QUICK CONTACT BUTTONS */}
       <RevealOnScroll
         as="section"
         style={{
@@ -59,15 +58,15 @@ export default function Contact() {
       >
         <a href={`https://wa.me/${WHATSAPP_NUMBER}`} className="card-hover" style={quickBtn}>
           <WhatsAppIcon />
-          WhatsApp Us
+          WhatsApp
         </a>
         <a href={`tel:+${WHATSAPP_NUMBER}`} className="card-hover" style={quickBtn}>
           <PhoneIcon />
-          Call {PHONE_DISPLAY}
+          Call
         </a>
         <a href={INSTAGRAM_URL} className="card-hover" style={quickBtn}>
           <InstagramIcon />
-          DM @palestra.lb
+          DM
         </a>
       </RevealOnScroll>
 

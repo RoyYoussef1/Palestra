@@ -66,15 +66,14 @@ export default function About() {
           <h2 style={{ fontFamily: "'Bebas Neue',sans-serif", fontSize: "clamp(30px,5vw,44px)", margin: "0 0 20px" }}>
             Richard Saleh
           </h2>
-          <p style={{ color: "#D8D5CE", fontSize: 16, lineHeight: 1.75, margin: "0 0 18px" }}>
+          <p style={{ color: "#D8D5CE", fontSize: 16, lineHeight: 1.75, margin: "0 0 10px" }}>
             Richard opened Palestra in Jdeideh with one rule: never train more people than he can
-            actually coach. Every session — strength, conditioning, Zumba, or kickboxing — runs under
+            actually coach. <br></br>Every session (strength, conditioning, Zumba, or kickboxing) runs under
             his eye, capped at 3 to 4 people so every rep gets corrected and every client gets seen.
           </p>
           <p style={{ color: "#D8D5CE", fontSize: 16, lineHeight: 1.75, margin: "0 0 18px" }}>
-            Years of coaching everyday people — not athletes chasing records, but parents, students,
-            and professionals fitting fitness into real life — shaped his approach: no ego, no wasted
-            time, just consistent, well-programmed training that respects your schedule and your body.
+            Years of coaching everyday people, not athletes chasing records but parents, students,
+            and professionals fitting fitness into real life.
           </p>
           <div style={{ display: "flex", gap: 28, flexWrap: "wrap", marginTop: 28 }}>
             {BIO_STATS.map((s) => (
@@ -132,10 +131,6 @@ export default function About() {
           <h2 style={{ fontFamily: "'Bebas Neue',sans-serif", fontSize: "clamp(30px,5vw,44px)", margin: "0 0 16px" }}>
             A real training floor, not a showroom
           </h2>
-          <p style={{ color: "#B8B5AE", fontSize: 16, lineHeight: 1.6, margin: 0 }}>
-            Full racks, free weights, functional training tools — everything needed to build strength
-            and conditioning, none of the fluff.
-          </p>
         </RevealOnScroll>
         <RevealOnScroll style={{ borderRadius: 16, overflow: "hidden" }}>
           <img

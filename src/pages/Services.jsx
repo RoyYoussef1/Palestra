@@ -53,7 +53,6 @@ export default function Services() {
         ))}
       </section>
 
-      {/* PRICING */}
       <section
         id="pricing"
         style={{
@@ -69,10 +68,6 @@ export default function Services() {
             <h2 style={{ fontFamily: "'Bebas Neue',sans-serif", fontSize: "clamp(30px,5vw,48px)", margin: "0 0 16px" }}>
               Simple monthly plans, no session math
             </h2>
-            <p style={{ color: "#B8B5AE", fontSize: 17, lineHeight: 1.6, margin: 0 }}>
-              Every plan includes full programming and coaching from Richard. Pick the frequency that
-              fits your week — upgrade or downgrade anytime.
-            </p>
           </RevealOnScroll>
 
           <div className="snap-carousel snap-carousel--plans snap-carousel--plans-narrow">
@@ -82,15 +77,13 @@ export default function Services() {
           </div>
 
           <p style={{ textAlign: "center", color: "#8A8780", fontSize: 13.5, margin: "32px 0 0" }}>
-            Billed monthly. No long-term contract. Zumba &amp; kickboxing drop-ins available separately
-            — ask us for details.
+            Billed monthly. No long-term contract. Zumba &amp; kickboxing drop-ins available separately.
           </p>
         </div>
       </section>
 
       <CtaBanner
         heading="Try before you commit"
-        sub="Your first semi-private session is free — no card, no contract. Just show up and train."
         pad="clamp(56px,9vw,80px) clamp(20px,5vw,40px)"
       />
 
