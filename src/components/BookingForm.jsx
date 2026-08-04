@@ -105,6 +105,7 @@ export default function BookingForm() {
           border: "none",
           cursor: "pointer",
           marginTop: 6,
+          fontFamily: "Inter, sans-serif",
         }}
       >
         Send via WhatsApp
