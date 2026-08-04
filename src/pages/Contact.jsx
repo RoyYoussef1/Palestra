@@ -122,11 +122,11 @@ export default function Contact() {
                 borderBottom: "1px solid #262626",
               }}
             >
-              <span>Monday – Saturday</span>
-              <span style={{ color: "#FFCE00", fontWeight: 700 }}>9:00 – 18:00</span>
+              <span>Monday – Friday</span>
+              <span style={{ color: "#FFCE00", fontWeight: 700 }}>8:00 – 20:00</span>
             </div>
             <div style={{ display: "flex", justifyContent: "space-between", color: "#8A8780", fontSize: 15, padding: "8px 0" }}>
-              <span>Sunday</span>
+              <span>Saturday & Sunday</span>
               <span>Closed</span>
             </div>
           </div>

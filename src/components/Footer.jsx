@@ -79,9 +79,9 @@ export default function Footer() {
                 <div>
                   <div className="site-footer-visit-label">Working hours</div>
                   <div className="site-footer-visit-text">
-                    Mon – Sat: 9:00 – 18:00
+                    Monday – Friday: 8:00 – 20:00
                     <br />
-                    Sunday: Closed
+                    Saturday & Sunday: Closed
                   </div>
                 </div>
               </div>

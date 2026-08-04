@@ -130,7 +130,7 @@ export const PLANS = [
   },
   {
     name: "UNLIMITED",
-    price: "$190",
+    price: "$200",
     cadenceShort: "Train anytime",
     cadenceLong: "Train anytime",
     icon: "users",
