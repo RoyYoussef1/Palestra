@@ -46,7 +46,7 @@ export default function PricingCard({ plan, variant = "teaser", ctaHref = "/cont
   };
 
   const priceSize = isTeaser ? (plan.featured ? 64 : 56) : 52;
-  const cadenceUnit = isTeaser ? "/ mo" : "/ month";
+  const cadenceUnit = plan.priceUnit ?? (isTeaser ? "/ mo" : "/ month");
 
   return (
     <RevealOnScroll className={isTeaser ? "plan-card" : "card-hover"} style={cardStyle}>

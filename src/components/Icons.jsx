@@ -15,6 +15,15 @@ export function CheckIcon({ size = 16, strokeWidth = 2.2 }) {
   );
 }
 
+export function UserIcon({ size = 24, strokeWidth = 1.8 }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" strokeWidth={strokeWidth} {...base}>
+      <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+      <circle cx="12" cy="7" r="4" />
+    </svg>
+  );
+}
+
 export function UsersIcon({ size = 24, strokeWidth = 1.8 }) {
   return (
     <svg width={size} height={size} viewBox="0 0 24 24" strokeWidth={strokeWidth} {...base}>
@@ -94,4 +103,5 @@ export const PLAN_ICONS = {
   users: UsersIcon,
   target: TargetIcon,
   chart: ChartIcon,
+  user: UserIcon,
 };

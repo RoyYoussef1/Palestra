@@ -13,7 +13,7 @@ export default function Services() {
       <PageHeader
         eyebrow="SERVICES"
         title="What we coach"
-        intro="Every program runs in small groups of 3-4, coached directly by Richard Saleh."
+        intro="1-on-1 personal training, or small groups of 3-4 — all coached directly by Richard Saleh."
       />
 
       {/* SERVICE CARDS */}
@@ -66,7 +66,7 @@ export default function Services() {
           <RevealOnScroll style={{ textAlign: "center", maxWidth: 680, margin: "0 auto 56px" }}>
             <Eyebrow style={{ marginBottom: 10 }}>MEMBERSHIP PLANS</Eyebrow>
             <h2 style={{ fontFamily: "'Bebas Neue',sans-serif", fontSize: "clamp(30px,5vw,48px)", margin: "0 0 16px" }}>
-              Simple monthly plans, no session math
+              Simple plans that fit how you train
             </h2>
           </RevealOnScroll>
 
@@ -77,7 +77,8 @@ export default function Services() {
           </div>
 
           <p style={{ textAlign: "center", color: "#8A8780", fontSize: 13.5, margin: "32px 0 0" }}>
-            Billed monthly. No long-term contract. Zumba &amp; kickboxing drop-ins available separately.
+            Monthly plans, no long-term contract. Personal training is $35 per session. Zumba &amp;
+            kickboxing drop-ins available separately.
           </p>
         </div>
       </section>

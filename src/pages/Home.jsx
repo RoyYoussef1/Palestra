@@ -416,7 +416,7 @@ export default function Home() {
             margin: "36px 0 0",
           }}
         >
-          Billed monthly, no long-term contract ·{" "}
+          Billed monthly, no long-term contract · Personal training $35/session ·{" "}
           <Link to="/services" style={{ color: "#FFCE00", fontWeight: 700 }}>
             Compare full plan details →
           </Link>

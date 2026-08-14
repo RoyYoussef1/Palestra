@@ -13,6 +13,7 @@ export const NAV_LINKS = [
 
 export const MARQUEE_ITEMS = [
   "SEMI-PRIVATE TRAINING",
+  "1-ON-1 PERSONAL TRAINING",
   "MAX 4 PER GROUP",
   "ZUMBA",
   "KICKBOXING",
@@ -25,8 +26,8 @@ export const SERVICE_ROWS = [
   {
     number: "01",
     title: "PERSONAL TRAINING",
-    img: "https://images.pexels.com/photos/32695899/pexels-photo-32695899.jpeg?auto=compress&cs=tinysrgb&w=900",
-    to: "/services#svc-pt",
+    img: "https://images.pexels.com/photos/6456304/pexels-photo-6456304.jpeg?auto=compress&cs=tinysrgb&w=900",
+    to: "/services#svc-personal",
   },
   {
     number: "02",
@@ -51,13 +52,19 @@ export const SERVICE_ROWS = [
 // Home — stats band
 export const HOME_STATS = [
   { value: "4", label: "MAX PER GROUP" },
-  { value: "4", label: "PROGRAMS" },
+  { value: "5", label: "PROGRAMS" },
   { value: "1", label: "DEDICATED COACH" },
   { value: "100%", label: "PERSONALIZED" },
 ];
 
 // Services page — service cards
 export const SERVICES = [
+  {
+    id: "svc-personal",
+    title: "Personal Training",
+    img: "https://images.pexels.com/photos/6456304/pexels-photo-6456304.jpeg?auto=compress&cs=tinysrgb&w=800",
+    body: "One-on-one sessions with Richard, programmed around your goals.",
+  },
   {
     id: "svc-pt",
     title: "Semi-Private Personal Training",
@@ -149,11 +156,33 @@ export const PLANS = [
     ],
     cta: "Choose Unlimited",
   },
+  {
+    name: "PERSONAL",
+    price: "$35",
+    priceUnit: "/ session",
+    cadenceShort: "1-on-1 coaching",
+    cadenceLong: "1-on-1 coaching",
+    icon: "user",
+    featured: false,
+    featuresShort: [
+      "One-on-one with Richard",
+      "Custom program",
+      "Book as you go",
+    ],
+    featuresLong: [
+      "One-on-one sessions with Richard",
+      "Custom program built around your goals",
+      "Full attention on every rep",
+      "Pay per session, no monthly plan required",
+    ],
+    cta: "Choose Personal",
+  },
 ];
 
 // Contact form — "Interested In" options
 export const INTEREST_OPTIONS = [
   "Free Trial Session",
+  "Personal Training — $35/session",
   "Starter — 2x/week",
   "Performance — 3x/week",
   "Unlimited",
