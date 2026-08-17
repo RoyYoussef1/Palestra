@@ -98,10 +98,61 @@ export function ClockIcon({ size = 19, strokeWidth = 1.8, color = "#FFCE00" }) {
   );
 }
 
+export function CoreIcon({ size = 28, strokeWidth = 1.6 }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" strokeWidth={strokeWidth} {...base}>
+      <path d="M8.2 3.8C9.4 2.8 10.6 2.3 12 2.3s2.6.5 3.8 1.5v9c0 3.4-1.5 6.8-3.8 8.6-2.3-1.8-3.8-5.2-3.8-8.6v-9z" />
+      <path d="M9.2 8.6h5.6M9.2 11.6h5.6M9.6 14.6h4.8" />
+    </svg>
+  );
+}
+
+export function StretchIcon({ size = 28, strokeWidth = 1.6 }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" strokeWidth={strokeWidth} {...base}>
+      <circle cx="7.5" cy="5.5" r="2.1" />
+      <path d="M8 7.8v5.2l4 3" />
+      <path d="M8 13.2 20 8.2" />
+      <path d="M12 16.2 16.2 21" />
+      <path d="M8 13.2H3.8" />
+    </svg>
+  );
+}
+
+export function PostureIcon({ size = 28, strokeWidth = 1.6 }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" strokeWidth={strokeWidth} {...base}>
+      <circle cx="12" cy="4.8" r="2.1" />
+      <path d="M12 7v8.2" />
+      <path d="M12 10.2 6.8 8.4" />
+      <path d="M12 10.2 17.5 8.6" />
+      <path d="M12 15.2 8.2 21" />
+      <path d="M12 15.2 16.6 18.4 15.4 21" />
+    </svg>
+  );
+}
+
+export function LotusIcon({ size = 28, strokeWidth = 1.6 }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" strokeWidth={strokeWidth} {...base}>
+      <path d="M12 20s-7.2-4-7.2-10.2c0-2.6 2.2-4.4 4.2-3.6.5 1.8 1.8 3.6 3 4.8 1.2-1.2 2.5-3 3-4.8 2-.8 4.2 1 4.2 3.6C19.2 16 12 20 12 20z" />
+      <path d="M12 11.2C10.4 8.6 10 5.6 11 3.2c.7 2.2 2 3.8 1 8z" />
+      <path d="M6.8 18.4c2.2.2 3.8-.5 5.2-2.2 1.4 1.7 3 2.4 5.2 2.2" />
+    </svg>
+  );
+}
+
 // Maps a plan.icon key -> component (used by PricingCard).
 export const PLAN_ICONS = {
   users: UsersIcon,
   target: TargetIcon,
   chart: ChartIcon,
   user: UserIcon,
+};
+
+export const PILATES_ICONS = {
+  core: CoreIcon,
+  flex: StretchIcon,
+  posture: PostureIcon,
+  mind: LotusIcon,
 };

@@ -2,8 +2,8 @@ import Header from "../components/Header.jsx";
 import Footer from "../components/Footer.jsx";
 import PricingCard from "../components/PricingCard.jsx";
 import RevealOnScroll from "../components/RevealOnScroll.jsx";
-import { Eyebrow, PageHeader, CtaBanner } from "../components/ui.jsx";
-import { SERVICES, PLANS } from "../data.js";
+import { Eyebrow, PageHeader, CtaBanner, ButtonFilled } from "../components/ui.jsx";
+import { SERVICES, PLANS, PILATES } from "../data.js";
 
 export default function Services() {
   return (
@@ -19,7 +19,7 @@ export default function Services() {
       {/* SERVICE CARDS */}
       <section
         style={{
-          padding: "20px clamp(20px,5vw,40px) clamp(56px,9vw,100px)",
+          padding: "20px clamp(20px,5vw,40px) 28px",
           maxWidth: 1200,
           margin: "0 auto",
           display: "grid",
@@ -34,7 +34,7 @@ export default function Services() {
             className="card-hover"
             style={{
               background: "#161616",
-              border: "1px solid #262626",
+              border: svc.id === "svc-pilates" ? "1px solid #FFCE00" : "1px solid #262626",
               borderRadius: 14,
               overflow: "hidden",
               scrollMarginTop: 96,
@@ -51,6 +51,23 @@ export default function Services() {
             </div>
           </RevealOnScroll>
         ))}
+      </section>
+
+      <section style={{ padding: "0 clamp(20px,5vw,40px) clamp(56px,9vw,80px)", maxWidth: 1200, margin: "0 auto" }}>
+        <RevealOnScroll className="pilates-offer-strip">
+          <div>
+            <div style={{ color: "#FFCE00", fontWeight: 800, letterSpacing: 3, fontSize: 12, marginBottom: 8 }}>
+              {PILATES.tagline}
+            </div>
+            <h2 style={{ fontFamily: "'Bebas Neue',sans-serif", fontSize: "clamp(36px,6vw,56px)", margin: "0 0 6px", letterSpacing: 1 }}>
+              {PILATES.title}
+            </h2>
+            <p style={{ margin: 0, color: "#D8D5CE", fontSize: 15 }}>
+              {PILATES.sessions} for {PILATES.price}
+            </p>
+          </div>
+          <ButtonFilled to="/contact">Book Pilates</ButtonFilled>
+        </RevealOnScroll>
       </section>
 
       <section
@@ -77,8 +94,8 @@ export default function Services() {
           </div>
 
           <p style={{ textAlign: "center", color: "#8A8780", fontSize: 13.5, margin: "32px 0 0" }}>
-            Monthly plans, no long-term contract. Personal training is $35 per session. Zumba &amp;
-            kickboxing drop-ins available separately.
+            Monthly plans, no long-term contract. Personal training is $35 per session. Pilates
+            is 8 sessions for $120. Kickboxing drop-ins available separately.
           </p>
         </div>
       </section>

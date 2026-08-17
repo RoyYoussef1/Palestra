@@ -5,6 +5,7 @@ import Marquee from "../components/Marquee.jsx";
 import ServiceCard from "../components/ServiceCard.jsx";
 import StatBlock from "../components/StatBlock.jsx";
 import PricingCard from "../components/PricingCard.jsx";
+import PilatesSection from "../components/PilatesSection.jsx";
 import RevealOnScroll from "../components/RevealOnScroll.jsx";
 import { Eyebrow, ButtonFilled, ButtonOutline } from "../components/ui.jsx";
 import { CheckIcon, UsersIcon, TargetIcon, ChartIcon } from "../components/Icons.jsx";
@@ -417,11 +418,17 @@ export default function Home() {
           }}
         >
           Billed monthly, no long-term contract · Personal training $35/session ·{" "}
+          <a href="#pilates" style={{ color: "#FFCE00", fontWeight: 700 }}>
+            Pilates 8 sessions $120
+          </a>{" "}
+          ·{" "}
           <Link to="/services" style={{ color: "#FFCE00", fontWeight: 700 }}>
             Compare full plan details →
           </Link>
         </RevealOnScroll>
       </section>
+
+      <PilatesSection />
 
       {/* FREE TRIAL BANNER */}
       <RevealOnScroll

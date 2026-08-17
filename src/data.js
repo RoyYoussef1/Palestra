@@ -11,11 +11,30 @@ export const NAV_LINKS = [
   { label: "Contact", to: "/contact" },
 ];
 
+export const PILATES_IMG = "/assets/pilates.jpeg";
+export const PILATES_IMG_CARD = "/assets/pilates.jpeg";
+
+export const PILATES = {
+  title: "PILATES",
+  tagline: "STRENGTH. CONTROL. BALANCE.",
+  sub: "A STRONGER YOU STARTS FROM THE INSIDE OUT.",
+  mantra: "STRONG MIND  |  STRONG BODY  |  STRONG YOU",
+  sessions: "8 SESSIONS",
+  price: "$120",
+  img: PILATES_IMG,
+  benefits: [
+    { icon: "core", label: "CORE STRENGTH" },
+    { icon: "flex", label: "FLEXIBILITY & MOBILITY" },
+    { icon: "posture", label: "BETTER POSTURE" },
+    { icon: "mind", label: "MIND-BODY CONNECTION" },
+  ],
+};
+
 export const MARQUEE_ITEMS = [
   "SEMI-PRIVATE TRAINING",
   "1-ON-1 PERSONAL TRAINING",
   "MAX 4 PER GROUP",
-  "ZUMBA",
+  "PILATES",
   "KICKBOXING",
   "NUTRITION COACHING",
   "FIRST SESSION FREE",
@@ -31,9 +50,9 @@ export const SERVICE_ROWS = [
   },
   {
     number: "02",
-    title: "ZUMBA",
-    img: "https://images.pexels.com/photos/8957646/pexels-photo-8957646.jpeg?auto=compress&cs=tinysrgb&w=900",
-    to: "/services#svc-zumba",
+    title: "PILATES",
+    img: PILATES_IMG_CARD,
+    to: "/services#svc-pilates",
   },
   {
     number: "03",
@@ -72,10 +91,10 @@ export const SERVICES = [
     body: "Strength, conditioning, and fat-loss programming in groups capped at 4.",
   },
   {
-    id: "svc-zumba",
-    title: "Zumba",
-    img: "https://images.pexels.com/photos/8957646/pexels-photo-8957646.jpeg?auto=compress&cs=tinysrgb&w=800",
-    body: "Dance-based cardio classes for adults.",
+    id: "svc-pilates",
+    title: "Pilates",
+    img: PILATES_IMG_CARD,
+    body: "Reformer sessions for core strength, control, and balance. 8 sessions $120.",
   },
   {
     id: "svc-kick",
@@ -186,7 +205,7 @@ export const INTEREST_OPTIONS = [
   "Starter — 2x/week",
   "Performance — 3x/week",
   "Unlimited",
-  "Zumba",
+  "Pilates — 8 sessions $120",
   "Kickboxing",
   "Nutrition Coaching",
 ];

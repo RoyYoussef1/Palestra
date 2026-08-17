@@ -68,7 +68,7 @@ export default function About() {
           </h2>
           <p style={{ color: "#D8D5CE", fontSize: 16, lineHeight: 1.75, margin: "0 0 10px" }}>
             Richard opened Palestra in Jdeideh with one rule: never train more people than he can
-            actually coach. <br></br>Every session (strength, conditioning, Zumba, or kickboxing) runs under
+            actually coach. <br></br>Every session (strength, conditioning, Pilates, or kickboxing) runs under
             his eye, capped at 3 to 4 people so every rep gets corrected and every client gets seen.
           </p>
           <p style={{ color: "#D8D5CE", fontSize: 16, lineHeight: 1.75, margin: "0 0 18px" }}>
