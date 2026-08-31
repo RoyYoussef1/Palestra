@@ -37,7 +37,7 @@ export const MARQUEE_ITEMS = [
   "PILATES",
   "KICKBOXING",
   "NUTRITION COACHING",
-  "FIRST SESSION FREE",
+  "TRIAL SESSION",
 ];
 
 // Home — numbered "What We Do" image cards
@@ -200,7 +200,7 @@ export const PLANS = [
 
 // Contact form — "Interested In" options
 export const INTEREST_OPTIONS = [
-  "Free Trial Session",
+  "Trial Session",
   "Personal Training — $35/session",
   "Starter — 2x/week",
   "Performance — 3x/week",

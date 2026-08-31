@@ -94,8 +94,7 @@ export function PageHeader({ eyebrow, title, intro }) {
   );
 }
 
-/** Centered "book a free trial" CTA banner. */
-export function CtaBanner({ heading, sub, cta = "Book My Free Trial", to = "/contact", maxWidth = 1000, pad }) {
+export function CtaBanner({ heading, sub, cta = "Book My Trial", to = "/contact", maxWidth = 1000, pad }) {
   return (
     <RevealOnScroll
       as="section"

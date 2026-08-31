@@ -59,7 +59,7 @@ export default function Header() {
             whiteSpace: "nowrap",
           }}
         >
-          Book Free Trial
+          Book Trial
         </Link>
         <button
           className={`hamburger${isMenuOpen ? " open" : ""}`}

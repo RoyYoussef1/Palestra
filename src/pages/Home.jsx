@@ -112,7 +112,7 @@ export default function Home() {
               program built for you.
             </p>
             <div style={{ display: "flex", gap: 14, flexWrap: "wrap" }}>
-              <ButtonFilled to="/contact">Claim Your Free Session</ButtonFilled>
+              <ButtonFilled to="/contact">Claim Your Trial Session</ButtonFilled>
               <ButtonOutline to="/about">More About Us</ButtonOutline>
             </div>
           </div>
@@ -430,7 +430,6 @@ export default function Home() {
 
       <PilatesSection />
 
-      {/* FREE TRIAL BANNER */}
       <RevealOnScroll
         as="section"
         style={{
@@ -444,10 +443,10 @@ export default function Home() {
           Not sure yet? Try a session on us.
         </h2>
         <p style={{ color: "#B8B5AE", fontSize: 16, margin: "0 0 28px" }}>
-          One free semi-private session, zero commitment. Meet Richard, feel the format, then decide.
+          One semi-private session, zero commitment. Meet Richard, feel the format, then decide.
         </p>
         <ButtonFilled to="/contact" style={{ padding: "16px 32px" }}>
-          Book My Free Trial
+          Book My Trial
         </ButtonFilled>
       </RevealOnScroll>
 

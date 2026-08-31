@@ -9,7 +9,7 @@ export default function BookingForm() {
   const [form, setForm] = useState({
     name: "",
     phone: "",
-    plan: "Free Trial Session",
+    plan: "Trial Session",
     message: "",
   });
 
@@ -45,7 +45,7 @@ export default function BookingForm() {
       }}
     >
       <h2 style={{ fontFamily: "'Bebas Neue',sans-serif", fontSize: 32, margin: 0 }}>
-        Book Your Free Trial Session
+        Book Your Trial Session
       </h2>
 
       <div style={fieldWrap}>

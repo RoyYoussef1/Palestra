@@ -19,7 +19,7 @@ src/
   index.css             design tokens + .reveal/.marquee/.nav/.card-hover/.svc-row
   data.js               all site copy (nav, marquee, services, plans, form options)
   components/
-    Header.jsx          logo, nav (active state), Book-Free-Trial CTA, hamburger (useState)
+    Header.jsx          logo, nav (active state), Book-Trial CTA, hamburger (useState)
     Footer.jsx          `variant="full"` (Home 4-col) | `variant="compact"` (inner pages)
     Marquee.jsx         CSS-animated ticker (list duplicated for seamless loop)
     ServiceRow.jsx      numbered 01–04 hover row -> /services
